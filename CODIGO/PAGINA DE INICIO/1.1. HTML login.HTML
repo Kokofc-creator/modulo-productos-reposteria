@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padanito Repostería - Iniciar sesión</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sección izquierda con imagen y logo -->
+    <div class="left">
+      <img src="logo-padanito.png" alt="Logo Padanito Repostería" class="logo" />
+    </div>
+
+    <!-- Sección derecha con formulario -->
+    <div class="right">
+      <form class="login-form">
+        <h2>Iniciar sesión</h2>
+
+        <div class="input-group">
+         <input type="text" id="cedula" placeholder="Número de cédula" required />
+        </div>
+        </div>
+
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Contraseña" required />
+          <span class="toggle-password" id="togglePassword">👁️</span>
+        </div>
+
+        <button type="submit" class="btn-login">Iniciar sesión</button>
+
+        <div class="links">
+          <a href="#" class="forgot">Recordar contraseña</a><br />
+          <span>¿Todavía no tienes una cuenta? <a href="#" class="register">Regístrate</a></span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

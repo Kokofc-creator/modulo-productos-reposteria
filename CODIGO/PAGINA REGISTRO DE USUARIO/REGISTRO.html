@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario - Padanito</title>
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- SECCIÓN IZQUIERDA CON FONDO E IMAGEN -->
+    <div class="left">
+      <img src="E:/1. PROYECTO DE SOFTWARE PADANITO/img/logo-padanito.png" class="logo" alt="Logo Padanito">
+    </div>
+
+    <!-- SECCIÓN DERECHA DEL FORMULARIO -->
+    <div class="right">
+      <h2>Registro de Usuario</h2>
+
+      <form id="formRegistro">
+
+        <input type="text" placeholder="Nombres" required>
+
+        <input type="text" placeholder="Apellidos" required>
+
+        <input type="text" placeholder="Número de cédula" required>
+
+        <div class="password-container">
+          <input type="password" id="password" placeholder="Contraseña" required>
+          <span id="togglePassword" class="eye">👁️</span>
+        </div>
+
+        <button type="submit" class="btn">CREAR CUENTA</button>
+
+      </form>
+
+    </div>
+  </div>
+
+  <script src="registro.js"></script>
+
+</body>
+</html>

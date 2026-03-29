@@ -1,0 +1,117 @@
+/* ======== Paleta de colores ======== */
+:root {
+  --rosa-pastel: #E7A6FF;
+  --violeta-suave: #8E44FF;
+  --crema: #FFF3E6;
+}
+
+/* ======== Estilos generales ======== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  background-color: var(--crema);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* ======== Sección izquierda ======== */
+.left {
+  flex: 1;
+  background-image: url("E:/1. PROYECTO DE SOFTWARE PADANITO/img/pastel-fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+}
+
+.logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  border-radius: 50%;
+}
+
+/* ======== Sección derecha ======== */
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: var(--violeta-suave);
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--violeta-suave);
+  border-radius: 10px;
+  background: linear-gradient(to right, #FFF3E6, #E7A6FF);
+  font-size: 15px;
+  outline: none;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-login {
+  width: 100%;
+  background: linear-gradient(to right, var(--violeta-suave), var(--rosa-pastel));
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  transform: scale(1.05);
+}
+
+.links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.forgot {
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.register {
+  color: var(--violeta-suave);
+  font-weight: bold;
+  text-decoration: none;
+}
